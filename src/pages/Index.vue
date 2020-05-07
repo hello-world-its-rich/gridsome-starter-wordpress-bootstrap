@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1 class="text-center text-uppercase h5 font-family-sans-serif mb-5">Latest Stories</h1>
+    <h1 class="text-center h5 font-family-sans-serif mb-5"></h1>
     <Post :post="node" v-for="{ node } in $page.allWordPressPost.edges" :key="node.id"/>
     <Pagination :info="$page.allWordPressPost.pageInfo"/>
   </Layout>
@@ -46,7 +46,7 @@ export default {
     Pagination
   },
   metaInfo: {
-    title: 'Latest Stories'
+    title: 'Recent projects I have enjoyed working on.'
   }
 }
 </script>

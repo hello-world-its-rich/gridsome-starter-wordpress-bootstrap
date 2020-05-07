@@ -2,10 +2,12 @@
   <div>
     <b-container>
       <header class="py-4 py-sm-5">
-        <b-navbar class="p-0" toggleable="lg" type="light">
+        <b-navbar class="p-0" toggleable="lg" type="dark">
           <b-navbar-brand>
             <b-navbar-brand class="font-family-headings" to="/">
-              <span class="h3 text-dark">Gridsome</span>
+                <g-image src="~/assets/images/rich_logo.png" alt fluid thumbnail width="100" class="img-fluid mb-3"/>
+
+              <span class="h3 text-dark"></span>
             </b-navbar-brand>
           </b-navbar-brand>
           <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -25,7 +27,7 @@
             </div>
           </b-col>
         </transition>
-        <site-sidebar/>
+        <!-- <site-sidebar/> -->
       </b-row>
     </b-container>
     <site-footer/>
