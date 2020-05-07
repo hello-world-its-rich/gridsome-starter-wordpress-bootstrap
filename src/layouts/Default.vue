@@ -5,7 +5,6 @@
         <b-navbar class="p-0" toggleable="lg" type="dark">
           <b-navbar-brand>
             <b-navbar-brand class="font-family-headings" to="/">
-                <g-image src="~/assets/images/rich_logo.png" alt fluid thumbnail width="100" class="img-fluid mb-3"/>
 
               <span class="h3 text-dark"></span>
             </b-navbar-brand>

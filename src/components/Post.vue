@@ -3,14 +3,7 @@
     <b-col :data-first="post.title.charAt(0)" md="3" class="meta-data py-md-5 text-center position-relative d-flex">
       <div class="mx-auto mb-2 position-relative">
         <formated-date class="post-date font-weight-bold" :date="post.date"/>
-        <i class="d-none d-md-block">in:</i>
-        <categories-list class="mb-0" :categories="post.categories"/>
-        <div v-if="post.author">
-          <i>by: </i>
-          <g-link :to="post.author.path" class="font-weight-bold">
-            {{ post.author.name }}
-          </g-link>
-        </div>
+       
       </div>
     </b-col>
     <b-col class="mb-5 py-md-5">
